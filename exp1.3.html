@@ -1,0 +1,38 @@
+ <!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body{
+                background-color: aqua
+            }
+            p.one{
+                border-style: solid;
+                border-color: red; 
+            }
+            p.two{
+                border-style: solid;
+                border-color: green;
+            }
+            p.three{
+                border-style: solid;
+                border-color: red green blue yellow;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>HTML Forms</h2>
+        <form action="/action_page.php">
+            First name:<br><input type ="text" name="firstname" value="Mickey"><br>
+            Last name:<br> <input type="text" name="lastname" value="Mouse"><br><br>
+
+            <input type="submit" value="Submit"<br>
+        </form>
+        <p style="background-color:darkorange">this is a simple form</p>
+        <h2>The border-color Property</h2>
+        <p>This property specifies the color of the four borders:</p>
+        <p class="one">A solid red border</p>
+        <p class="two">A solid green border</p>
+        <p class="three">A solid multicolor border</p>
+        <p><br>NOte:<br>The "border-color" property does not work alone. Use the "border-style" property to set the borders first.</p>
+    </body>
+</html>
